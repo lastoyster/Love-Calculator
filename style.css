@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	animation: bgColor 6s infinite;
+	background: linear-gradient(#6A9113,#141517);
+}
+
+@keyframes bgColor {
+	0%{
+		background: #faf;
+	}
+
+	15%{
+		background: #12c2e9;
+	}
+
+	30%{
+		background: #c471ed;
+	}
+
+	45%{
+		background: #f4791f;
+	}
+
+	60%{
+		background: #40E0D0;
+	}
+
+	75%{
+		background: #BE93C5;
+	}
+
+	90%{
+		background: #360033;
+	}
+
+	100%{
+		background: yellow;
+	}
+}
+.calc {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding:20px 50px;
+	border:5px solid #AB6C6C;
+	background-color: #BB9898;
+	clear: both;
+}
+#result {
+	color: #6a54ec;
+  font-size: 85px;
+  text-shadow: 1px 1px 1px #646161;
+	height: 150px;
+}
